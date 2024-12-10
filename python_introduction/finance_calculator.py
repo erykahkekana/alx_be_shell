@@ -1,6 +1,6 @@
 #!/bin/bash
-monthly_income = float(input("Enter yoour monthly income: "))
-total_monthly_expenses = float(input("Enter your monthly expeenses: "))
+monthly_income = int(input("Enter yoour monthly income: "))
+total_monthly_expenses = int(input("Enter your monthly expeenses: "))
 
 monthly_savings = monthly_income - total_monthly_expenses
 
